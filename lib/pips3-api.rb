@@ -1,0 +1,36 @@
+$:.unshift File.join(File.dirname(__FILE__))
+
+require 'pips3-api/gem_version'
+
+require "pips3-api/util/cache"
+
+require 'pips3-api/base'
+require 'pips3-api/programme'
+
+require 'pips3-api/brand'
+require 'pips3-api/broadcast'
+require 'pips3-api/clip'
+require 'pips3-api/collection'
+require 'pips3-api/contribution'
+require 'pips3-api/contributor'
+require 'pips3-api/credit_role'
+require 'pips3-api/episode'
+require 'pips3-api/genre'
+require 'pips3-api/id'
+require 'pips3-api/image'
+require 'pips3-api/master_brand'
+require 'pips3-api/media_asset'
+require 'pips3-api/membership'
+require 'pips3-api/ondemand'
+require 'pips3-api/promotion'
+require 'pips3-api/relationship_type'
+require 'pips3-api/relationship'
+require 'pips3-api/schedule'
+require 'pips3-api/segment_event'
+require 'pips3-api/segment'
+require 'pips3-api/series'
+require 'pips3-api/service'
+require 'pips3-api/tag_scheme'
+require 'pips3-api/tag'
+require 'pips3-api/tagging'
+require 'pips3-api/version'
